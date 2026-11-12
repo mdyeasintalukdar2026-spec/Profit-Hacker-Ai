@@ -302,7 +302,7 @@ def bot_script():
                             '</button>' +
 
                             '<div style="text-align:center;font-size:6px;color:#64748b;font-weight:600;padding-top:1px;">' +
-                                'Profit Hacker AI - Video Accurate Edition' +
+                                'Profit Hacker AI - Video Exact Edition' +
                             '</div>' +
                         '</div>';
 
@@ -403,7 +403,7 @@ def bot_script():
                     signalIcon.style.border = '1px solid #22c55e';
                     timerBox.innerText = '05:00';
 
-                    // Video-accurate scanning animation box
+                    // Exact video scanning state with moving green laser
                     candleBox.innerHTML = 
                         '<div style="position:relative;width:100%;height:100%;display:flex;align-items:center;justify-content:space-evenly;background:#05070d;overflow:hidden;padding:6px;will-change:transform;">' +
                             '<div style="position:absolute;width:100%;height:6px;background:#22c55e;box-shadow:0 0 30px #22c55e, 0 0 60px #22c55e, 0 0 90px #4ade80;animation:intensiveGreenLaser 0.6s infinite ease-in-out;z-index:5;"></div>' +
@@ -436,7 +436,7 @@ def bot_script():
                             var candleColor = isCall ? '#22c55e' : '#ef4444';
                             var signalLabelText = isCall ? 'BULLISH SIGNAL' : 'BEARISH SIGNAL';
 
-                            // Video-exact popup result card matching the video overlay
+                            // Exact video signal popup card matching the video
                             candleBox.innerHTML = 
                                 '<div style="position:relative;display:flex;flex-direction:column;align-items:center;justify-content:center;height:100%;width:100%;animation:candlePopIn 0.25s ease-out;background:radial-gradient(circle, rgba(16,28,45,0.9) 0%, rgba(4,8,16,0.98) 100%);padding:4px 0;border:2px solid ' + candleColor + ';border-radius:6px;box-shadow:0 0 20px ' + candleColor + ';">' +
                                     '<div style="font-size:9px;font-weight:900;color:#94a3b8;letter-spacing:1px;margin-bottom:2px;">PROFIT HACKER</div>' +
@@ -447,7 +447,7 @@ def bot_script():
 
                             startCountdown(timerBox, 300, panel);
 
-                        }, 5000); // Exact 5 seconds scanning matching video requirement
+                        }, 5000); // Exactly 5 seconds scanning matching video requirement
                     });
                 }
 
